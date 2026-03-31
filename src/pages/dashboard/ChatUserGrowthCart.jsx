@@ -87,7 +87,7 @@ const Dashboard = () => {
   return (
     <div className="mt-5 mb-2">
       <div className="">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-6">
           {/* Overall User Activity Card */}
           <Card className="shadow-lg rounded-2xl border-0">
             <div className="flex justify-between items-center mb-6">
@@ -136,7 +136,7 @@ const Dashboard = () => {
           </Card>
 
           {/* Viewer Card */}
-          <Card className="shadow-lg rounded-2xl border-0">
+          {/* <Card className="shadow-lg rounded-2xl border-0">
             <h2 className="text-2xl font-bold text-gray-800 mb-6">Events</h2>
 
             <div className="flex items-center justify-between mb-8">
@@ -168,7 +168,6 @@ const Dashboard = () => {
               </div>
             </div>
 
-            {/* Legend with trends */}
             <div className="space-y-4">
               <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
                 <div className="flex items-center gap-3">
@@ -202,7 +201,7 @@ const Dashboard = () => {
                 </div>
               </div>
             </div>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </div>

@@ -77,8 +77,8 @@ function Dashboard() {
           </div>
         </div>
       </div>
-
       <ChatUserGrowthCart />
+
     </div>
   );
 }
